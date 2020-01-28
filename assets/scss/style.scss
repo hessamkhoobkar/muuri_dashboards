@@ -1,9 +1,21 @@
-@use 'muuri';
-@use 'dashboard/card';
+@import 'foundation/colors';
+@import 'foundation/spacing';
+@import 'foundation/layout';
+@import 'foundation/shadows';
+@import 'muuri';
+@import 'dashboard/card';
 
 
 body {
     background-color: #F4F6F8;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    padding: 0 16px;
 }
 
 *, *:before, *:after {

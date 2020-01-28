@@ -1,0 +1,29 @@
+$full          : 100%;
+$three-quarters: 75%;
+$two-thirds    : 66.6666%;
+$half          : 50%;
+$one-third     : 33.3333%;
+$one-quarter   : 25%;
+
+$height-base  : 400px;
+$height-half  : calc(#{$height-base} / 2);
+$height-double: calc(#{$height-base} * 2);
+
+// .width-three-quarters {
+//     width: 75%;
+// } 
+// .width-two-thirds {
+//     width: 66.6666%;
+// } 
+// .width-half {
+//     width: 50%;
+// } 
+// .width-one-third {
+//     width: 33.3333%;
+// } 
+// .width-one-quarter {
+//     width: 25%;
+// } 
+// .width-full {
+//     width: 100%;
+// } 

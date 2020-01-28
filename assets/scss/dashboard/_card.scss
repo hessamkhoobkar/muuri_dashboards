@@ -1,15 +1,44 @@
 .dashboard {
 
     &__card {
-        margin: 8px;
+        background: $color-white;
+        color: $color-ink;
+        margin: $spacing-tight;
+        box-shadow: $shadows-faint;
+        border-radius: $border-radius-base;
+        padding: $spacing-base;
+        border: 1px solid $color-sky;
         z-index: 1;
-        background: #ffffff;
-        color: #000;
-        height: 300px;
-        width: calc(50% - 16px);
-        // box-shadow: 0 0 0 1px rgba(63, 63, 68, 0.05), 0 1px 3px 0 rgba(63, 63, 68, 0.15);
-        border-radius: 3px;
-        padding: 16px;
-        border: 1px solid rgb(223, 227, 232);
+
+        // Width
+        &.width-full {
+            width: calc(#{$full} - #{$spacing-base});
+        }
+        &.width-three-quarters {
+            width: calc(#{$three-quarters} - #{$spacing-base});
+        } 
+        &.width-two-thirds {
+            width: calc(#{$two-thirds} - #{$spacing-base});
+        } 
+        &.width-half {
+            width: calc(#{$half} - #{$spacing-base});
+        } 
+        &.width-one-third {
+            width: calc(#{$one-third} - #{$spacing-base});
+        } 
+        &.width-one-quarter {
+            width: calc(#{$one-quarter} - #{$spacing-base});
+        } 
+
+        // Height
+        &.height-base {
+            height: $height-base;
+        } 
+        &.height-half{
+            height: $height-half;
+        } 
+        &.height-double {
+            height: $height-double;
+        } 
     }
 }
