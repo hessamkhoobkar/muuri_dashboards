@@ -1,0 +1,11 @@
+@use 'muuri';
+@use 'dashboard/card';
+
+
+body {
+    background-color: #F4F6F8;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
