@@ -7,11 +7,10 @@ $one-quarter   : 25%;
 
 
 
-$height-value  : 400px;
+$height-value  : 200px;
 
-$height-base  : calc(#{$height-value} + 2);
-$height-half  : calc(#{$height-value} / 2);
-$height-double: calc(#{$height-value} * 2);
+$height-half  : $height-value;
+$height-base  : calc((#{$height-value} * 2) + #{$spacing-base});
 
 // .width-three-quarters {
 //     width: 75%;

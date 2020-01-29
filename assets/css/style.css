@@ -54,20 +54,18 @@
   width: calc(25% - 1rem);
 }
 .dashboard__card.height-base {
-  height: 400px;
+  height: calc((200px * 2) + 1rem);
 }
 .dashboard__card.height-half {
-  height: calc(400px / 2);
+  height: 200px;
 }
 .dashboard__card.height-double {
-  height: calc(400px * 2);
+  height: calc((200px * 4) + (4 * 1rem));
 }
 
 body {
   background-color: #F4F6F8;
   font-size: 16px;
-  padding: 0;
-  margin: 0;
 }
 
 .container {
