@@ -5,9 +5,13 @@ $half          : 50%;
 $one-third     : 33.3333%;
 $one-quarter   : 25%;
 
-$height-base  : 400px;
-$height-half  : calc(#{$height-base} / 2);
-$height-double: calc(#{$height-base} * 2);
+
+
+$height-value  : 400px;
+
+$height-base  : calc(#{$height-value} + 2);
+$height-half  : calc(#{$height-value} / 2);
+$height-double: calc(#{$height-value} * 2);
 
 // .width-three-quarters {
 //     width: 75%;
