@@ -59,9 +59,6 @@
 .dashboard__card.height-half {
   height: 200px;
 }
-.dashboard__card.height-double {
-  height: calc((200px * 4) + (4 * 1rem));
-}
 
 body {
   background-color: #F4F6F8;
@@ -69,8 +66,11 @@ body {
 }
 
 .container {
-  width: 100%;
-  padding: 0 16px;
+  width: calc(100vw - 20px);
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 *, *:before, *:after {
